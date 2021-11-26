@@ -1,7 +1,7 @@
 <?php
 
 $dirs = scandir('./images');
-$path = './images/';
+$path = 'images/';
 $images = [];
 foreach ($dirs as $dir) {
     if ($dir !== '.' && $dir !== '..') {
